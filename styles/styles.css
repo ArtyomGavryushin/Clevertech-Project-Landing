@@ -1,0 +1,161 @@
+html{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --white-bg: #fefefe;
+    --black-text-header: #000;
+    --black-text-header-hover: #303030;
+    --white-text: #F5F5F5;
+}
+
+/*Header*/
+header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: var(--white-bg);
+    box-shadow: 0 4px 4px #00000025;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Playfair Display', serif;
+    z-index: 1000;
+}
+.clevertech_logo{
+    box-shadow:0 4px 20px #526A85;
+    border-radius: 50%;
+    transition: .5s all;
+}
+.clevertech_logo:hover{
+    box-shadow:0 4px 40px #4655A2;
+}
+.header_logo_link{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+    text-decoration: none;
+    color: var(--black-text-header);
+    transition: .5s all;
+}
+.header_logo_link:hover{
+    color: var(--black-text-header-hover);
+}
+.logo_name{
+    margin-left: 20px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-size: 26px;
+}
+.header_links{
+    color: var(--black-text-header);
+    text-decoration: none;
+    margin-right: 35px;
+    text-transform: uppercase;
+    position: relative;
+    transition: .1s linear;
+}
+.header_links:hover{
+    color: var(--black-text-header-hover);
+}
+.header_links::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    opacity: 0;
+    background: var(--black-text-header-hover);
+    position: absolute;
+    border-radius: 20px;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s linear;
+}
+.header_links:hover::after{
+    opacity: 1;
+}
+
+/*Main content*/
+.sec1{ 
+    background: linear-gradient(90deg, #304352, #0B1A99, #4286F4);
+    background-size: 200% 200%;
+    animation: animatedBG 20s linear infinite;
+    display: flex;
+}
+.sec2{
+    background-image: url(../images/starry-sky-ct.jpg);
+}
+#pp-nav li .active span, .pp-slidesNav .active span{
+    background: #fff!important;
+}
+.sec1 .main_content_1{
+    height: 100vh;
+    width: 100%;
+    /*background: linear-gradient(90deg, #304352, #0B1A99, #4286F4);
+    background-size: 200% 200%;
+    animation: animatedBG 20s linear infinite;
+    display: flex;*/
+}
+.main_text_block{
+    height: 450px;
+    width: 1100px;
+    /*background-color: purple;*/
+    margin: auto;
+    text-align: center;
+}
+.header_text{
+    font-size: 128px;
+    color: var(--white-text);
+    /*text-shadow: 0px 0px 15px rgba(77, 77, 77, 0.8); version-1*/
+    text-shadow: 0px 0px 15px rgb(149 149 149 / 55%); /* version-2 */
+}
+
+/*Footer*/
+
+footer{
+    width: 1000px;
+    height: 60px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 100;
+}
+.footer_links{
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: var(--white-text);
+}
+
+/*Something animations*/
+@keyframes animatedBG {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
