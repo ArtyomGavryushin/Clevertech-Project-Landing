@@ -4,7 +4,7 @@ $(document).ready(function() {
             'textColor': '#fff',
             'bulletsColor': '#fff',
             'position': 'right',
-            'tooltips': ['section1', 'section2']
+            'tooltips': ['Home', 'Community'
         },
-	});
+    });
 });
