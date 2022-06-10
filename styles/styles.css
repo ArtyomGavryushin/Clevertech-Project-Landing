@@ -15,7 +15,10 @@ body{
     --black-text-header-hover: #303030;
     --white-text: #F5F5F5;
 }
-
+::selection{
+    background: #526A85;
+    color: var(--white-text);
+}
 /*Header*/
 header{
     top: 0;
@@ -28,6 +31,7 @@ header{
     grid-template-columns: 1fr 1fr;
     font-family: 'Playfair Display', serif;
     z-index: 1000;
+    align-items: center;
 }
 .clevertech_logo{
     box-shadow:0 4px 20px #526A85;
@@ -38,13 +42,14 @@ header{
     box-shadow:0 4px 40px #4655A2;
 }
 .header_logo_link{
-    height: 100px;
+    height: 53px;
     display: flex;
     align-items: center;
     margin-left: 230px;
     text-decoration: none;
     color: var(--black-text-header);
     transition: .5s all;
+    width: 35.4%;
 }
 .header_logo_link:hover{
     color: var(--black-text-header-hover);
@@ -129,6 +134,56 @@ section h2{
     text-transform: uppercase;
     text-align: center;
 }
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: #fff;
+    justify-items: center;
+    align-items: center;
+}
+.container_block_first{
+    text-align: center;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 250px;
+    font-size: 72px;
+}
+.container_paragraph{
+    padding: 0;
+    margin: 0;
+}
+.container_contact_link{
+    color: var(--white-text);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 26px;
+    background: #304352;
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 0 0 20px #434f51;
+    transition: .5s all;
+    border: 0px solid var(--white-text) ;    
+}
+.container_contact_link:hover{
+    background: #1F2D38;
+    box-shadow: 0 0 30px #406684;
+    color: #fefefe;
+    border: 1px solid var(--white-text);
+}
+.container_block_fourth{text-align: center;}
+.container_header{
+    font-size: 128px;
+    width: 900px;
+    text-align: right;
+    margin-top: -350px;
+    margin-right: 100px;
+}
+
+
+
 section .star{
     position: absolute;
     top: 0;
@@ -193,7 +248,6 @@ section .star.star8{
 .main_text_block{
     height: 450px;
     width: 1100px;
-    /*background-color: purple;*/
     margin: auto;
     text-align: center;
 }
