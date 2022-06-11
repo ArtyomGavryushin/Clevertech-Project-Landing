@@ -64,12 +64,12 @@ nav{
     display: flex;
     align-items: center;
     height: 100px;
-    font-size: 26px;
+    font-size: 21px;
 }
 .header_links{
     color: var(--black-text-header);
     text-decoration: none;
-    margin-right: 35px;
+    margin-right: 50px;
     text-transform: uppercase;
     position: relative;
     transition: .1s linear;
