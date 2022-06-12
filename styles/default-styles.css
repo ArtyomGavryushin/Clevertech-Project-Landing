@@ -147,6 +147,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     z-index: 100;
+    font-family: 'Playfair Display', serif;
 }
 .footer_links{
     font-size: 24px;
