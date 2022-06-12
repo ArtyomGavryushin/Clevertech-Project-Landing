@@ -101,17 +101,15 @@ nav{
     background-size: 200% 200%;
     animation: animatedBG 20s linear infinite;
     display: flex;
-}
-.sec1{
     height: 100vh;
     width: 100%;
 }
-.main_text_block{
+/*.main_text_block{
     height: 450px;
     width: 1100px;
     margin: auto;
     text-align: center;
-}
+}*/
 /*.header_text{
     font-size: 128px;
     color: var(--white-text);
