@@ -26,6 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     tabsParent.addEventListener('click', (event) => {
         const target = event.target;
+	event.preventDefault();
 
         if(target && target.classList.contains('petal')){
             tabs.forEach((item, i) => {
