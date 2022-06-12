@@ -102,7 +102,7 @@ nav{
     animation: animatedBG 20s linear infinite;
     display: flex;
 }
-.sec1 .main_content_1{
+.sec1{
     height: 100vh;
     width: 100%;
 }
