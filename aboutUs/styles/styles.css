@@ -69,7 +69,13 @@
 .text_connect{
     font-size: 21px;
 }
-
+.links_icon{
+    text-decoration: none;
+    
+}
+.icons_social_webs{
+    width: 26px;
+}
 .main_block_inner_2{
     height: 300px;
     margin: auto;
