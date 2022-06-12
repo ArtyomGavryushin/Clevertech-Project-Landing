@@ -1,0 +1,85 @@
+:root{
+    --white-bg: #fefefe;
+    --black-text-header: #000;
+    --black-text-header-hover: #303030;
+    --white-text: #F5F5F5;
+}
+
+.sec1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.petals{
+    display: flex;
+    position: relative;
+    top: 42px;
+    left: -313px;
+    z-index: 1;
+}
+
+.petal{
+    /*width: ;*/
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    margin-right: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.active_petal{
+    background-color: #C3C3C3;
+    font-weight: bold;
+}
+
+.short_name{
+    font-size: 21px;
+    margin-top: 3px;
+}
+
+.main_block{
+    width: 1000px;
+    height: 550px;
+    background-color: #C3C3C3;
+    border-radius: 0px 30px 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    z-index: 3;
+}
+.hide{
+    display: none;
+}
+.main_block_inner_1{
+    display: grid;
+    grid-template-rows: 65% 35%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo_ct{
+    width: 270px;
+}
+.text_name{
+    font-size: 36px;
+}
+.text_connect{
+    font-size: 21px;
+}
+
+.main_block_inner_2{
+    height: 300px;
+    margin: auto;
+    width: 600px;
+    font-size: 21px;
+    /*text-indent: 20px;*/
+    text-align: center;
+}
+.text_details{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+}
