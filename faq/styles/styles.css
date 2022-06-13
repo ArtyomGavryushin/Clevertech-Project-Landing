@@ -18,6 +18,7 @@ p{
     background-color: #f0f0f0;
     box-shadow: 0 0 20px var(--black-text-header);
     text-align: center;
+    border-radius: 30px;
 }
 .header_faq{
     margin-top: 10px;
@@ -54,7 +55,6 @@ p{
 .img_arrow{
     width: 50px;
 }
-
 
 .hide{
     display: none!important;
