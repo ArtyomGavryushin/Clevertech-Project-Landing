@@ -6,8 +6,6 @@ window.addEventListener('DOMContentLoaded', () => {
           tabsContentParent = document.querySelector('.answers'),
           arrowBack = document.querySelectorAll('.img_arrow_back');
 
-    console.log(arrowBack);
-
     function hideTabContent(){
         tabsContent.forEach(item => {
             item.classList.add('hide');
@@ -20,12 +18,8 @@ window.addEventListener('DOMContentLoaded', () => {
         tabsContent[i].classList.remove('hide');
     }
 
-    hideTabContent();
-    showTabContent();
-
     tabsParent.addEventListener('click', (event) => {
         const target = event.target;
-        event.preventDefault();
 
         if(target && target.classList.contains('question')){
             tabs.forEach((item, i) => {
@@ -43,5 +37,5 @@ window.addEventListener('DOMContentLoaded', () => {
             tabsParent.classList.remove('hide');
          })
     });
-    
+
 });
