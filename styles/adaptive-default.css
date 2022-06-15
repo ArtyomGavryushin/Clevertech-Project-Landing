@@ -28,7 +28,7 @@
         float: right;
         margin-right: 50px;
     }
-    .block_links{
+    .navig{
         background-color: #e1e1e1;
         width: 100vw;
         height: 100vh;
@@ -72,7 +72,10 @@
         width: 300px;
         margin-left: 0px;
         margin-top: 50px;
-        font-size: 48px;
+        font-size: 38px;
+    }
+    .container_contact_link {
+        font-size: 21px;
     }
     .container_block_fourth{
         text-align: center;
@@ -80,10 +83,10 @@
         grid-row: 2;
     }
     .container_header{
-        font-size: 64px;
-        width: 315px;
+        font-size: 54px;
+        width: 340px;
         text-align: right;
-        margin-top: -110px;
+        margin-top: -135px;
         margin-right: 0;
     }
 
