@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="../styles/default-styles.css">
+
     <link rel="stylesheet" href="pagePilling/style/jquery.pagepiling.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,15 +48,21 @@
             </a>
         </div>
         <div class="header_content_2">
-            <nav>
+            <nav class="navig">
                 <a class="header_links" href="#">ecosystem</a>
                 <a class="header_links" href="../aboutUs/index.html">about us</a>
                 <a class="header_links" href="../works/index.html">works</a>
                 <a class="header_links" href="../faq/index.html">faq</a>
                 <a class="header_links" href="../contacts/index.html">contacts</a>
+                <img class="image_back hide" src="images/x.png" alt="back">
             </nav>
+            <img class="menu hide" src="images/menu.png" alt="menu">
         </div>
     </header>
+
+    <div class="mask">
+        <div class="loader"></div>
+    </div>
 
     <!-- Main-Content -->
 
@@ -89,8 +96,8 @@
         <a class="footer_links" href="../contacts/index.html">contacts</a>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="pagePilling/scripts/jquery.pagepiling.js"></script>
-    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <!-- <script type="text/javascript" src="scripts/scripts.js"></script> -->
+    <script type="text/javascript" src="scripts/adaptive-js.js"></script>
+    <script type="text/javascript" src="scripts/preloader.js"></script>
 </body>
 </html>
