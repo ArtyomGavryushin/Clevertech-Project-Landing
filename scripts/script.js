@@ -13,17 +13,21 @@ window.addEventListener('DOMContentLoaded', () => {
 	
 
 	const menu = document.querySelector('.menu'),
-		  navig = document.querySelector('.block_links'),
+		  navig = document.querySelector('nav'),
 		  backX = document.querySelector('.image_back');
 
+	navig.classList.add('hide');
+	backX.classList.add('hide');
+
 	if(window.screen.width > 450){
-		navig.classList.add('hide');
-	}else if(window.screen.width > 300 || window.screen.width < 500){
+		navig.classList.remove('hide');
+	}else if(window.screen.width < 500 || window.screen.width > 300){
 		menu.classList.remove('hide');
 	}
 
 	menu.addEventListener('click', () => {
 		navig.classList.remove('hide');
+		backX.classList.remove('hide');
 	});
 
 	backX.addEventListener('click', () => {
