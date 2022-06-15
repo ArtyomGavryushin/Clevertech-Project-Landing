@@ -1,0 +1,98 @@
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 450px) {
+
+    header{
+        width: 425px;
+    }
+    .header_logo_link{
+        margin-left: 30px;
+    }
+    .clevertech_logo{
+        width: 35px;
+    }
+    .logo_name{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    nav{
+        display: none;
+    }
+
+    .hide{
+        display: none!important;
+    }
+
+    .menu{
+        width: 30px;
+        float: right;
+        margin-right: 50px;
+    }
+    .block_links{
+        background-color: #e1e1e1;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        text-align: center;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .header_links{
+        font-size: 54px;
+        margin-right: 0;
+    }
+    .image_back{
+        width: 30px;
+        margin-top: 20px;
+    }
+
+
+
+    
+
+    .main_text_block{
+        width: 400px;
+    }
+    .header_text{
+        font-size: 84px;
+    }
+
+    .sec2{
+        width: 420px!important;
+    }
+    .container_block_first{
+        text-align: center;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 50px;
+        font-size: 48px;
+    }
+    .container_block_fourth{
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .container_header{
+        font-size: 74px;
+        width: 315px;
+        text-align: right;
+        margin-top: -110px;
+        margin-right: 0;
+    }
+
+    footer{
+        width: 390px;
+    }
+
+    .footer_links{
+        font-size: 16px;
+        margin:auto;
+    }
+}
