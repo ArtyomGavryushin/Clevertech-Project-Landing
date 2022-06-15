@@ -16,3 +16,6 @@
     line-height: 65px;
     color: white;
 }
+.hide{
+    display: none;
+}
