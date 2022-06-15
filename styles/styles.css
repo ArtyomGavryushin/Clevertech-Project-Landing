@@ -24,6 +24,9 @@
 .sec2{
     background-image: url(../images/starry-sky-ct.jpg);
 }
+.hide{
+    display: none;
+}
 /*Section 2 stars */
 section{
     position: relative;
