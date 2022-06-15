@@ -21,7 +21,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	
 	const menu = document.querySelector('.menu'),
 		  navig = document.querySelector('.navig'),
-		  backX = document.querySelector('.image_back');
+		  backX = document.querySelector('.image_back'),
+		  headerText = document.querySelector('.header_text');
 
 	navig.classList.add('hide');
 	backX.classList.add('hide');
@@ -31,6 +32,8 @@ window.addEventListener('DOMContentLoaded', () => {
 		navig.classList.remove('hide');
 	}else if(window.screen.width < 500 || window.screen.width > 300){
 		menu.classList.remove('hide');
+
+		headerText.innerHTML = `<h1 class="header_text">CLEVERTECH MORE THAN JUST<br>WEB 3.0</h1>`;
 	}
 
 	menu.addEventListener('click', () => {
