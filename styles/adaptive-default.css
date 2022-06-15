@@ -3,7 +3,7 @@
 @media only screen and (max-width: 450px) {
 
     header{
-        width: 425px;
+        width: 100%;
     }
     .header_logo_link{
         margin-left: 30px;
@@ -45,7 +45,7 @@
 
 
     .header_links{
-        font-size: 72px;
+        font-size: 54px;
         margin-right: 0;
     }
     .image_back{
@@ -61,7 +61,7 @@
         width: 400px;
     }
     .header_text{
-        font-size: 84px;
+        font-size: 81px;
     }
 
     .sec2{
@@ -80,7 +80,7 @@
         grid-row: 2;
     }
     .container_header{
-        font-size: 56px;
+        font-size: 64px;
         width: 315px;
         text-align: right;
         margin-top: -110px;
