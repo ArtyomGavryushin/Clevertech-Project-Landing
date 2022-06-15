@@ -1,0 +1,25 @@
+.header_content{
+    font-size: 96px;
+    margin-top: 10px;
+}
+.works_info{
+    justify-content: center;
+    align-items: center;
+}
+.info_block{
+    height: 250px;
+    width: 120px;
+    margin-right: 10px;
+}
+.photo_project{
+    width: 120px;
+}
+.project_name{
+    font-size: 21px;
+}
+.comming_soon{
+    font-size: 16px;
+}
+.date_out{
+    margin-right: 10px;
+}
