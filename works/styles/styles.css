@@ -4,6 +4,9 @@
     --black-text-header-hover: #303030;
     --white-text: #F5F5F5;
 }
+.hide{
+    display: none;
+}
 .sec1{
     align-items: center;
     justify-content: center;    
