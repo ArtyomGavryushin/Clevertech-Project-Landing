@@ -30,10 +30,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	if(window.screen.width > 450){
 		navig.classList.remove('hide');
-	}else if(window.screen.width > 300 && window.screen.width < 500){
+	}else if(window.screen.width > 300 || window.screen.width < 500){
 		menu.classList.remove('hide');
 
-		headerText.innerHTML = `<h1 class="header_text">CLEVERTECH MORE THAN JUST<br>WEB 3.0</h1>`;
+		headerText.innerHTML = `CLEVERTECH MORE THAN JUST<br>WEB 3.0`;
 	}
 
 	menu.addEventListener('click', () => {
