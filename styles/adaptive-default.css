@@ -42,8 +42,6 @@
         align-items: center;
         flex-direction: column;
     }
-
-
     .header_links{
         font-size: 54px;
         margin-right: 0;
@@ -52,11 +50,10 @@
         width: 30px;
         margin-top: 20px;
     }
-
-
+    /*  */
 
     
-
+    /* Main-content */
     .main_text_block{
         width: 370px;
     }
@@ -90,6 +87,7 @@
         margin-right: 0;
     }
 
+    /* Footer */
     footer{
         width: 390px;
     }
