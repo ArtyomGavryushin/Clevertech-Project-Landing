@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	if(window.screen.width > 450){
 		navig.classList.add('hide');
-	}else if(window.screen.width < 500 || window.screen.width > 300){
+	}else if(window.screen.width > 300 || window.screen.width < 500){
 		menu.classList.remove('hide');
 	}
 
