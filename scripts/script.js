@@ -10,14 +10,22 @@ window.addEventListener('DOMContentLoaded', () => {
 		});
 	});
 
-	
+	const mask = document.querySelector('.mask');
 
+	window.addEventListener('load', () => {
+		mask.classList.add('hide-loader');
+		setTimeout(()=> {
+			mask.remove();
+		}, 700);
+	});
+	
 	const menu = document.querySelector('.menu'),
 		  navig = document.querySelector('.navig'),
 		  backX = document.querySelector('.image_back');
 
 	navig.classList.add('hide');
 	backX.classList.add('hide');
+	
 
 	if(window.screen.width > 450){
 		navig.classList.remove('hide');
