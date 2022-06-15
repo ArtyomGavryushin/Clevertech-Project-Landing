@@ -1,159 +1,101 @@
-html{
-    scroll-behavior: smooth;
-}
-h1,h2,h3,h4,h5,h6{
-    margin: 0;
-    padding: 0;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Fjalla One', sans-serif;
-}
-:root{
-    --white-bg: #fefefe;
-    --black-text-header: #000;
-    --black-text-header-hover: #303030;
-    --white-text: #F5F5F5;
-}
-::selection{
-    background: #526A85;
-    color: var(--white-text);
-}
+/* Extra Small Devices, Phones */
 
-/*Header*/
-header{
-    top: 0;
-    position: fixed;
-    width: 100%;
-    height: 100px;
-    background-color: var(--white-bg);
-    box-shadow: 0 4px 4px #00000025;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-family: 'Playfair Display', serif;
-    z-index: 1000;
-    align-items: center;
-}
-.clevertech_logo{
-    box-shadow:0 4px 20px #526A85;
-    border-radius: 50%;
-    transition: .5s all;
-}
-.clevertech_logo:hover{
-    box-shadow:0 4px 40px #4655A2;
-}
-.header_logo_link{
-    height: 53px;
-    display: flex;
-    align-items: center;
-    margin-left: 230px;
-    text-decoration: none;
-    color: var(--black-text-header);
-    transition: .5s all;
-    width: 35.4%;
-}
-.header_logo_link:hover{
-    color: var(--black-text-header-hover);
-}
-.logo_name{
-    margin-left: 20px;
-    font-size: 42px;
-    text-transform: uppercase;
-}
-nav{
-    display: flex;
-    align-items: center;
-    height: 100px;
-    font-size: 21px;
-}
-.header_links{
-    color: var(--black-text-header);
-    text-decoration: none;
-    margin-right: 50px;
-    text-transform: uppercase;
-    position: relative;
-    transition: .1s linear;
-}
-.header_links:hover{
-    color: var(--black-text-header-hover);
-}
-.header_links::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    opacity: 0;
-    background: var(--black-text-header-hover);
-    position: absolute;
-    border-radius: 20px;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    transition: opacity .1s linear;
-}
-.header_links:hover::after{
-    opacity: 1;
-}
-
-/*Main page*/
-.sec1{ 
-    background: linear-gradient(90deg, #304352, #0B1A99, #4286F4);
-    background-size: 200% 200%;
-    animation: animatedBG 20s linear infinite;
-    display: flex;
-    height: 100vh;
-    width: 100%;
-}
-/*.main_text_block{
-    height: 450px;
-    width: 1100px;
-    margin: auto;
-    text-align: center;
-}*/
-/*.header_text{
-    font-size: 128px;
-    color: var(--white-text);
-    text-shadow: 0px 0px 15px rgba(77, 77, 77, 0.8); version-1
-    text-shadow: 0px 0px 15px rgb(149 149 149 / 55%); version-2 
-}
-*/
-
-/*Something animations*/
-
-@keyframes animatedBG {
-    0%{
-        background-position: 0 50%;
+@media only screen and (max-width: 450px) {
+    /* header */
+    header{
+        width: 100%;
     }
-    50%{
-        background-position: 100% 50%;
+    .header_logo_link{
+        margin-left: 30px;
     }
-    100%{
-        background-position: 0 50%;
+    .clevertech_logo{
+        width: 35px;
     }
-}
+    .logo_name{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    nav{
+        display: none;
+    }
+
+    .hide{
+        display: none!important;
+    }
+
+    .menu{
+        width: 30px;
+        float: right;
+        margin-right: 50px;
+    }
+    .navig{
+        background-color: #e1e1e1;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        text-align: center;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
 
-/*Footer*/
+    .header_links{
+        font-size: 54px;
+        margin-right: 0;
+    }
+    .image_back{
+        width: 30px;
+        margin-top: 20px;
+    }
 
-footer{
-    width: 1000px;
-    height: 60px;
-    margin: auto;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    z-index: 100;
-    font-family: 'Playfair Display', serif;
-}
-.footer_links{
-    font-size: 24px;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-right: 30px;
-    color: var(--white-text);
+
+
+    
+
+    .main_text_block{
+        width: 400px;
+    }
+    .header_text{
+        font-size: 81px;
+    }
+
+    .sec2{
+        width: 420px!important;
+    }
+    .container_block_first{
+        text-align: center;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 50px;
+        font-size: 38px;
+    }
+    .container_contact_link {
+        font-size: 21px;
+    }
+    .container_block_fourth{
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .container_header{
+        font-size: 54px;
+        width: 340px;
+        text-align: right;
+        margin-top: -135px;
+        margin-right: 0;
+    }
+
+    footer{
+        width: 390px;
+    }
+
+    .footer_links{
+        font-size: 16px;
+        margin:auto;
+    }
 }
