@@ -9,4 +9,17 @@ window.addEventListener('DOMContentLoaded', () => {
 	        },
 		});
 	});
+
+
+	const menu = document.querySelector('.menu'),
+		  navig = document.querySelector('.block_links'),
+		  backX = document.querySelector('.image_back');
+
+	menu.addEventListener('click', () => {
+		navig.classList.remove('hide');
+	});
+
+	backX.addEventListener('click', () => {
+		navig.classList.add('hide');
+	});
 });
