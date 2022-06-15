@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	
 
 	const menu = document.querySelector('.menu'),
-		  navig = document.querySelector('nav'),
+		  navig = document.querySelector('.navig'),
 		  backX = document.querySelector('.image_back');
 
 	navig.classList.add('hide');
