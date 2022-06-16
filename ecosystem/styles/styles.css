@@ -19,3 +19,11 @@
 .hide{
     display: none;
 }
+.row{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.columns{
+    text-shadow: 0px 0px 15px rgb(149 149 149 / 55%);
+}
