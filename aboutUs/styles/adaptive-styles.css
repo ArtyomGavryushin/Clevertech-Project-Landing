@@ -1,9 +1,7 @@
 @media only screen and (max-width: 450px) {
-    body{
-        overflow: hidden;
-    }
+    
     .petals{
-        left: -28px;
+        left: -27px;
     }
     .petal{
         width: 80px;
