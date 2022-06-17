@@ -6,9 +6,6 @@
     .petal{
         width: 80px;
     }
-    .petal:first-child{
-        border-radius: 20px 20px 20px 0px;
-    }
     .main_block{
         width: 370px;
         height: 470px;
