@@ -70,8 +70,7 @@ textarea:focus{
     text-align: center;
     border : 0px;
     margin-top: 19px;
-    width: 178px;
-    height: 55px;
+    padding: 3px 15px;
     background: #5A6890;
     border-radius: 20px;
     font-style: normal;
