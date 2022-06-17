@@ -6,6 +6,18 @@
     }
     .form_inputs{
         width: 80%;
+        font-size: 21px;
+    }
+    textarea{
+        width: 80%;
+        font-size: 21px;
+        border-radius: 15px;
+    }
+    .form_submit{
+        margin-bottom: 20px;
+        width: 150px;
+        height: 30px;
         font-size: 24px;
     }
+    
 }

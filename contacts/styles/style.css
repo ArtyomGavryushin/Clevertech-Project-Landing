@@ -65,6 +65,7 @@ textarea:focus{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.61); 
 }
 .form_submit{
+    text-align: center;
     border : 0px;
     margin-top: 19px;
     width: 178px;
@@ -74,7 +75,6 @@ textarea:focus{
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 49px;
     color: #FFFFFF;
     cursor: pointer;
     transition: .5s;
