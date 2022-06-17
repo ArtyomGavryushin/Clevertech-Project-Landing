@@ -90,6 +90,7 @@
     /* Footer */
     footer{
         width: 390px;
+        bottom:-10px;
     }
 
     .footer_links{
