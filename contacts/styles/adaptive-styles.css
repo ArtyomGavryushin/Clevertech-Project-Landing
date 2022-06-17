@@ -2,31 +2,30 @@
     form{
        
         width: 90%;
-        height: 400px;
+        height: 380px;
         border-radius: 10px;
     }
     .form_top_text{
         font-size: 32px;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
         margin-top: 8px;
     }
     .form_inputs{
-        height: 25px;
-        margin-bottom: 18px;
+        height: 35px;
+        margin-bottom: 25px;
         width: 80%;
         font-size: 21px;
     }
     textarea{
-        height: 60px;
         width: 80%;
         font-size: 21px;
         border-radius: 15px;
     }
     .form_submit{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         width: 150px;
         height: 30px;
-        font-size: 24px;
+        font-size: 32px;
     }
     
 }

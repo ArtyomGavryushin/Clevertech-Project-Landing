@@ -5,6 +5,9 @@
     flex-direction: column;
     font-family: 'Fjalla One', sans-serif;
 }
+.hide{
+    display: none;
+}
 form{
     width: 800px;
     height: 700px;
