@@ -22,9 +22,17 @@ window.addEventListener('DOMContentLoaded', () => {
     backX.addEventListener('click', () => {
         navig.classList.add('hide');
     });
+
     //off default mobile zoom
 
     document.addEventListener('gesturestart', function(e){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }, {passive:false});
+
+      //or 
+
+      document.addEventListener('TouchList', function(e){
         e.preventDefault();
         e.stopImmediatePropagation();
       }, {passive:false});
