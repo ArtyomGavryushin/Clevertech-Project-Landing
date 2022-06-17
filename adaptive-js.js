@@ -23,16 +23,9 @@ window.addEventListener('DOMContentLoaded', () => {
         navig.classList.add('hide');
     });
 
-    //off default mobile zoom
+    //off zoom on mobile
 
     document.addEventListener('gesturestart', function(e){
-        e.preventDefault();
-        e.stopImmediatePropagation();
-      }, {passive:false});
-
-      //or 
-
-      document.addEventListener('TouchList', function(e){
         e.preventDefault();
         e.stopImmediatePropagation();
       }, {passive:false});
