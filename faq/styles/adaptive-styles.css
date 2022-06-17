@@ -2,7 +2,7 @@
 
     .block_faq{
         width: 370px;
-        height: 600px;
+        height: 550px;
     }
     .header_faq{
         font-size: 72px;
@@ -17,6 +17,7 @@
 
     .answer{
         width: 350px;
+        height:95%;
     }
     .question_name{
         font-size: 36px;
