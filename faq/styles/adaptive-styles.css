@@ -1,0 +1,30 @@
+@media only screen and (max-width: 450px) {
+
+    .block_faq{
+        width: 370px;
+        height: 600px;
+    }
+    .header_faq{
+        font-size: 72px;
+    }
+    .questions{
+        height: 70%;
+    }
+    .question{
+        width: 300px;
+        grid-template-columns: 85% 10%;
+    }
+
+    .answer{
+        width: 350px;
+    }
+    .question_name{
+        font-size: 36px;
+    }
+    .answered_text{
+        font-size: 20px;
+    }
+    .img_arrow_back{
+        width: 40px;
+    }
+}
