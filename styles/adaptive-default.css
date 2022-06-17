@@ -1,6 +1,9 @@
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 450px) {
+    body{
+        overflow: hidden;
+    }
     /* header */
     header{
         width: 100%;
