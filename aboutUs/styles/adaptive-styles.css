@@ -8,7 +8,7 @@
     }
     .main_block{
         width: 370px;
-        height: 470px;
+        height: 450px;
         grid-template-rows: 30% 70%;
         grid-template-columns: 1fr;
         margin-bottom: 60px;
