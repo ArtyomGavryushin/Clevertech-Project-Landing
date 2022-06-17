@@ -1,7 +1,7 @@
 @media only screen and (max-width: 450px) {
     .header_content{
         font-size: 96px;
-        margin-top: 10px;
+        margin-top: 25px;
     }
     .works_info{
         justify-content: center;
@@ -10,7 +10,7 @@
     .info_block{
         height: 250px;
         width: 120px;
-        margin-right: 20px;
+        margin-right: 5px;
     }
     .photo_project{
         width: 120px;
