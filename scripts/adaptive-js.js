@@ -22,4 +22,11 @@ window.addEventListener('DOMContentLoaded', () => {
     backX.addEventListener('click', () => {
         navig.classList.add('hide');
     });
+    
+    //off zoom on mobile
+
+    document.addEventListener('gesturestart', function(e){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }, {passive:false});
 });
