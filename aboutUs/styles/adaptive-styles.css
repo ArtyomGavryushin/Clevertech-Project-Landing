@@ -1,10 +1,13 @@
 @media only screen and (max-width: 450px) {
     
     .petals{
-        left: -27px;
+        left: -28px;
     }
     .petal{
         width: 80px;
+    }
+    .petal:first-child{
+        border-radius: 20px 20px 20px 0px;
     }
     .main_block{
         width: 370px;
@@ -32,7 +35,7 @@
     }
     .main_block_inner_2{
         width: 340px;
-        font-size: 16px;
+        font-size: 17px;
         margin-top: 25px;
     }
     .text_details{
