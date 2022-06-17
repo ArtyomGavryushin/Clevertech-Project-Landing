@@ -2,7 +2,7 @@
 
     .block_faq{
         width: 370px;
-        height: 500px;
+        height: 480px;
     }
     .header_faq{
         font-size: 64px;
@@ -12,7 +12,7 @@
     }
     .question{
         width: 300px;
-        height: 90px;
+        height: 85px;
         grid-template-columns: 85% 10%;
     }
 
@@ -24,7 +24,7 @@
         font-size: 36px;
     }
     .answered_text{
-        font-size: 20px;
+        font-size: 18px;
     }
     .img_arrow_back{
         width: 40px;
