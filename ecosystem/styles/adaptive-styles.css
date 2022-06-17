@@ -1,0 +1,5 @@
+@media only screen and (max-width: 450px) {
+    .columns{
+        min-width: 200px;
+    }
+}
