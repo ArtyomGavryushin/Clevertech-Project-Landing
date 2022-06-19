@@ -5,13 +5,11 @@
     .running_text{
         font-size: 42px;
     }
-
 }
 @media only screen and (max-width: 1366px) {
     .running_text{
         font-size: 46px;
     }
-
 }
 @media only screen and (max-width: 450px) {
     .animation_area{
