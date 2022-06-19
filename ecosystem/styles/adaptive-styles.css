@@ -23,3 +23,11 @@
         min-width: 200px;
     }
 }
+@media only screen and (max-height: 450px) {
+    .animation_area{
+        height: 333px;
+    }
+    .running_text {
+        font-size: 28px;
+    }
+}
