@@ -68,13 +68,13 @@
     <!-- Main-Content -->
 
     <div class="section sec1">
-       <form action="#">
+       <form action="fileMail.php" method="POST">
         <h1 class="form_top_text">Contact with us!</h1>
-        <input type="text" required class="form_inputs" placeholder="name and surname">
-        <input type="email" required class="form_inputs" placeholder="example@example.com">
-        <input type="tel" required class="form_inputs" placeholder="+7(999) 999 99 99">
-        <input type="text" required class="form_inputs" placeholder="Your company name (if any)">
-        <textarea placeholder="Your question" required maxlength="250" ></textarea>
+        <input type="text" required class="form_inputs" name="user_data" placeholder="name and surname">
+        <input type="email" required class="form_inputs" name="user_mail" placeholder="example@example.com">
+        <input type="tel" reqzuired class="form_inputs" name="tel_num" placeholder="+7(999) 999 99 99">
+        <input type="text" required class="form_inputs" name="company_name" placeholder="Your company name (if any)">
+        <textarea placeholder="Your question" name="user_mess" required maxlength="250" ></textarea>
         <button class="form_submit" name="submit" value="SUBMIT" type="submit">SUBMIT</button>
        </form>
     </div>
