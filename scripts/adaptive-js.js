@@ -30,5 +30,4 @@ window.addEventListener('DOMContentLoaded', () => {
         e.stopImmediatePropagation();
       }, {passive:false});
 
-    window.history.replaceState({}, null, '/');
 });
