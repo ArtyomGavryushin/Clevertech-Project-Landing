@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1366px) {
+
+
+}
+@media only screen and (max-width: 450px) {
+    /* Main-content */
+    .main_text_block{
+        width: 370px;
+    }
+    .header_text{
+        font-size: 76px;
+    }
+
+    .sec2{
+        width: 100%!important;
+    }
+    .container_block_first{
+        text-align: center;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 50px;
+        font-size: 38px;
+    }
+    .container_contact_link {
+        font-size: 21px;
+    }
+    .container_block_fourth{
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    .container_header{
+        font-size: 54px;
+        width: 340px;
+        text-align: right;
+        margin-top: -135px;
+        margin-right: 0;
+    }   
+}
