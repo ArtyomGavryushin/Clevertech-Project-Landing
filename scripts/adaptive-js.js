@@ -29,4 +29,6 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         e.stopImmediatePropagation();
       }, {passive:false});
+
+    window.history.replaceState({}, null, '/');
 });
