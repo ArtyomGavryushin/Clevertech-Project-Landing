@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1366px) {
+    .works_content{
+        margin-top: 50px;
+    }
+    .info_block{
+        width:215px;
+    }
+    .photo_project{
+        width:200px;
+    }
+
+}
 @media only screen and (max-width: 450px) {
     .header_content{
         font-size: 96px;
