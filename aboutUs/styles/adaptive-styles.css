@@ -1,3 +1,22 @@
+@media only screen and (max-width: 1536px) {
+    .main_block{
+        width: 900px;
+        height: 450px;
+    }
+    .petals{
+        left: -262px;
+    }
+    .main_block_inner_1{
+        justify-items: center;
+    }
+    .logo_ct{
+        width: 230px;
+    }
+    .text_name{
+        font-size: 28px;
+    }
+
+}
 @media only screen and (max-width: 1366px) {
     .main_block{
         width: 900px;
