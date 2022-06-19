@@ -1,20 +1,28 @@
 <?php
     $name = $_POST["user_data"];
-    $email = $_POST["uder_mail"];
+    $email = $_POST["user_mail"];
     $tel = $_POST["tel_num"];
     $companyName = $_POST["company_name"];
     $userMess = $_POST["user_mess"];
 
-    $randomNumber = rand(1, 999999);
+    $subjectAdmin = "Order from website";
+    $subjectCustomer = "$name, thank you for your order";
 
-    // В этом сообщении нужно первым параметром указать $email, тк это сообщение для пользователя!
-    mail("artemgavryushinofficial@mail.ru", "Order placed! Expect to be contacted shortly", $name . " thank you for your message! Your order is - " . $randomNumber);
+    $header = "From: $email\r\n" . "Reply-To:$email\r\n";
 
-    // Сообщение для администратора
-    mail("artemgavryushinofficial@mail.ru", "Message for administrator", 
-        'Message from: '. $email .
-        'Phone Number: '. $tel . 
-        'Company name': $companyName . 
-        'User message': $userMess);
+    $fullMess = "Name: $name
+                 \nEmail: $email
+                 \nPhone number: $tel
+                 \nCompany name: $companyName
+                 \nUser message: $userMess";
+    
+    // Письмо для администратора. Заменить $email на другую почту
+    mail($email, $subjectAdmin, $fullMess);
 
+    // Письмо для заказчика. Здесь должна быть почта $email, но на первое время будет эта
+    // mail("artemgavryushinofficial@mail.ru", $subjectCustomer, 
+    //     "Thank you for your order!\nAn administrator will contact you soon",
+    //     "From: artemgavryushinofficial@mail.ru\r\n" . "Reply-To:artemgavryushinofficial@mail.ru\r\n");
+        
+    header("Location: http://clevertch.ru/index.html");
 ?>
