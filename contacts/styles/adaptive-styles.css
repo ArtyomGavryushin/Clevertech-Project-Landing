@@ -10,14 +10,14 @@
         margin-top: 8px;
     }
     .form_inputs{
-        height: 35px;
+        height: 20px;
         margin-bottom: 25px;
         width: 80%;
-        font-size: 18px;
+        font-size: 16px;
     }
     textarea{
         width: 80%;
-        font-size: 18px;
+        font-size: 16px;
         border-radius: 15px;
     }
     .form_submit{
