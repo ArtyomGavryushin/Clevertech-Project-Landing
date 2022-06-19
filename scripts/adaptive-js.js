@@ -30,9 +30,9 @@ window.addEventListener('DOMContentLoaded', () => {
         e.stopImmediatePropagation();
       }, {passive:false});
     
-    window.addEventListener("orientationchange", function () {
-        if(window.orientation == 90){
-            menu.classList.remove('hide');
-        }
-    });
+    const window = window.matchMedia("(orientation: landscape)").matches;
+
+    if(window){
+        menu.classList.remove('hide');
+    }
 });
