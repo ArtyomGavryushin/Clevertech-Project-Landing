@@ -1,3 +1,12 @@
+@media only screen and (max-width: 1536px) {
+    .animation_area{
+        height: 550px;
+    }
+    .running_text{
+        font-size: 42px;
+    }
+
+}
 @media only screen and (max-width: 1366px) {
     .running_text{
         font-size: 46px;
