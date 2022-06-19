@@ -33,6 +33,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const window = window.matchMedia("(orientation: landscape)").matches;
 
     if(window){
-        menu.classList.remove('hide');
+        menu.classList.add('hide');
+        backX.classList.add('hide');
     }
 });
