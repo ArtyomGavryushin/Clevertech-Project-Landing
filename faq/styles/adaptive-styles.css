@@ -1,5 +1,32 @@
+@media only screen and (max-width: 1366px) {
+    .block_faq{
+        width: 900px;
+        height: 500px;
+    } 
+    .header_faq{
+        font-size: 72px;
+    }
+    .questions{
+        height:70%;
+    }
+    .question {
+        height:90px;
+    }
+    .answer{
+        width:700px;
+        height:95%;
+    }
+    .question_name{
+        font-size: 42px;
+    }
+    .answered_text{
+        font-size: 26px;
+    }
+    .img_arrow_back{
+        width:40px;
+    }
+}
 @media only screen and (max-width: 450px) {
-
     .block_faq{
         width: 370px;
         height: 480px;
