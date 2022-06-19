@@ -73,7 +73,6 @@ p{
 }
 .question_name{
     font-size: 48px;
-    /* font-weight: bold; */
 }
 .question_name::after{
     content: "";
