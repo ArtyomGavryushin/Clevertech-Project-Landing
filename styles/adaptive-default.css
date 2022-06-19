@@ -1,5 +1,38 @@
-/* Extra Small Devices, Phones */
+@media only screen and (max-width: 1366px) {
+    body{
+        overflow: hidden;
+    }
+    /* header */
+    header{
+        width: 100%;
+    }
+    .header_logo_link{
+        margin-left: 150px;
+    }  
+    .clevertech_logo{
+        width: 40px;
+    }
+    .logo_name{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    nav{
+        font-size: 18px;
+    }
 
+
+
+    footer{
+        width: 700px;
+    }
+
+    .footer_links{
+        font-size: 18px;
+        margin:auto;
+    }
+}
+
+/* Extra Small Devices, Phones */
 @media only screen and (max-width: 450px) {
     body{
         overflow: hidden;
