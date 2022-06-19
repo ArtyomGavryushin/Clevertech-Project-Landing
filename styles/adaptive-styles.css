@@ -1,6 +1,20 @@
 @media only screen and (max-width: 1366px) {
-
-
+    .sec2{
+        width:100%!important;
+    }
+    .container_block_first{
+        width: 500px;
+        margin-left: 50px;
+        margin-top: 200px;
+        font-size: 62px;
+    }
+    .container_header{
+        font-size: 86px;
+        width: 550px;
+        text-align: right;
+        margin-top: -160px;
+        margin-right: 50px;
+    }
 }
 @media only screen and (max-width: 450px) {
     /* Main-content */
@@ -10,7 +24,6 @@
     .header_text{
         font-size: 76px;
     }
-
     .sec2{
         width: 100%!important;
     }
