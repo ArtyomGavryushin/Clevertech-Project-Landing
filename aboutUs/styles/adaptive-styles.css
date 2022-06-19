@@ -15,7 +15,6 @@
     .text_name{
         font-size: 28px;
     }
-
 }
 @media only screen and (max-width: 1366px) {
     .main_block{
@@ -34,7 +33,6 @@
     .text_name{
         font-size: 28px;
     }
-
 }
 @media only screen and (max-width: 1024px) {
     .petals {
@@ -98,7 +96,6 @@
     .block_text_infomation{
         margin-top: 5px;
     }
-
 }
 @media only screen and (max-height: 450px) {
     .petals {
