@@ -13,17 +13,16 @@
         height: 35px;
         margin-bottom: 25px;
         width: 80%;
-        font-size: 21px;
+        font-size: 18px;
     }
     textarea{
         width: 80%;
-        font-size: 21px;
+        font-size: 18px;
         border-radius: 15px;
     }
     .form_submit{
         margin-bottom: 10px;
-        width: 150px;
-        height: 30px;
-        font-size: 32px;
+        font-size: 21px;
     }
+    
 }
