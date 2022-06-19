@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if(window.screen.width > 450){
         navig.classList.remove('hide');
-    }else if(window.screen.width > 300 || window.screen.height < 500){
+    }else if(window.screen.width > 300){
         menu.classList.remove('hide');
     }
 
@@ -29,11 +29,4 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         e.stopImmediatePropagation();
       }, {passive:false});
-    
-    const window = window.matchMedia("(orientation: landscape)").matches;
-
-    if(window){
-        menu.classList.add('hide');
-        backX.classList.add('hide');
-    }
 });
