@@ -22,6 +22,18 @@
     }
 
 }
+@media only screen and (max-width: 1024px) {
+    .info_block{
+        width:190px;
+    }
+    .photo_project{
+        width:175px;
+    }
+    .project_name{
+        font-size: 28px;
+    }
+
+}
 @media only screen and (max-width: 450px) {
     .header_content{
         font-size: 96px;
@@ -47,5 +59,26 @@
     }
     .date_out{
         margin-right: 10px;
+    }
+}
+@media only screen and (max-height: 450px) {
+    .header_content{
+        font-size: 56px;
+    }
+    .info_block {
+        width: 150px;
+        height: 200px;
+    }
+    .photo_project{
+        width: 150px;
+    }
+    .project_name {
+        font-size: 20px;
+    }
+    .comming_soon {
+        font-size: 18px;
+    }
+    .date_out{
+        margin-right: 15px;
     }
 }
