@@ -4,7 +4,6 @@
     --black-text-header-hover: #303030;
     --white-text: #F5F5F5;
 }
-
 .sec1{
     align-items: center;
     justify-content: center;
@@ -12,7 +11,6 @@
     flex-direction: column;
     font-family: 'Fjalla One', sans-serif;
 }
-
 .petals{
     display: flex;
     position: relative;
@@ -20,9 +18,7 @@
     left: -313px;
     z-index: 1;
 }
-
 .petal{
-    /*width: ;*/
     width: 100px;
     height: 70px;
     border-radius: 20px;
@@ -31,7 +27,6 @@
     text-align: center;
     cursor: pointer;
     font-size: 21px;
-    /* margin-top: 3px; */
 }
 .active_petal{
     background-color: #C3C3C3;
@@ -77,7 +72,6 @@
     margin: auto;
     width: 600px;
     font-size: 21px;
-    /*text-indent: 20px;*/
     text-align: center;
 }
 .text_details{
