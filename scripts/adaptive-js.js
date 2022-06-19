@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
     backX.classList.add('hide');
     
 
-    if(window.screen.width > 450){
+    if(window.screen.width > 450 || window.screen.height < 430){
         navig.classList.remove('hide');
     }else if(window.screen.width > 300 || window.screen.width < 500){
         menu.classList.remove('hide');
