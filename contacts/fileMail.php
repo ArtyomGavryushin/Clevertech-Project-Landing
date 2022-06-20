@@ -35,7 +35,7 @@
                                             font-size: 32px;
                                             line-height: 30px;
                                             width: 85%;">
-                                                Full_name: <b>'.$name.'</b><br>
+                                                Full name: <b>'.$name.'</b><br>
                                                 Email: <b>'.$email.'</b><br>
                                                 Phone number: <b>'.$tel.'</b><br>
                                                 Company name: <b>'.$companyName.'</b><br>
