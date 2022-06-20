@@ -44,8 +44,8 @@
                                                         padding: 10px 15px;
                                                         font-size: 21px;
                                                         border-radius: 5px;
-                                                        margin-bottom: 50px;">Back to CleverTech</a>
-                                    <p style="font-size: 24px; color: #343434;">© 2022 CleverTech. All Rights Reserved<br>Thank you for choosing us</p>
+                                                        margin-bottom: 10px;">Back to CleverTech</a>
+                                    <p style="font-size: 24px; color: #343434; text-align:center;">© 2022 CleverTech. All Rights Reserved<br>Thank you for choosing us</p>
                                 </div>';
     
 
